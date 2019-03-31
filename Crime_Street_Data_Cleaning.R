@@ -1,6 +1,8 @@
 crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
 crime_streets <- read_csv('south-yorkshire-street.csv')
 
+#Tenzin free riding
+
 #Rename Column Month to Date 
 colnames(crime_outcomes)[2] <- "Date"
 
