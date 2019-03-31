@@ -11,6 +11,7 @@ library(tidyr)
 library(bpa)
 
 crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
+crime_streets <- read_csv('south-yorkshire-street.csv')
 
 #Rename Column Month to Date 
 colnames(crime_outcomes)[2] <- "Date"
@@ -35,16 +36,14 @@ bpa(crime_outcomes$Month, unique_only = TRUE)
 #Check the LSOA Code pattern
 bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
 
-#split month and year column
+#Split month and year column
 crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=crime_date)
 
-#Identify Potential Outliers
-date_range <- subset(crime_outcomes, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
-
-#Identify Invalid Dates
-
+#Select & display invalid specified dates
+subset(crime_outcomes, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
 
 #Remove duplicates observations
 crime_outcomes <- unique(crime_outcomes)
 
 #Integrity Checks Between Datasets
+anti_join(crime_outcomes, crime_streets, by='Crime ID')
