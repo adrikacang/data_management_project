@@ -267,11 +267,126 @@ cols(
 <p>Rename Column Month to Date</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYENyaW1lIElEYCkpXG5cbmBgYCJ9 -->
+<pre class="r"><code>sum(is.na(crime_streets$`Crime ID`))
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDE2MDYwMVxuIn0= -->
+<pre><code>[1] 160601</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkTW9udGgpKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$Month))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDBcbiJ9 -->
+<pre><code>[1] 0</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYFJlcG9ydGVkIGJ5YCkpXG5gYGAifQ== -->
+<pre class="r"><code>sum(is.na(crime_streets$`Reported by`))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDBcbiJ9 -->
+<pre><code>[1] 0</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYEZhbGxzIHdpdGhpbmApKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$`Falls within`))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDBcbiJ9 -->
+<pre><code>[1] 0</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkTG9uZ2l0dWRlKSlcbmBgYCJ9 -->
+<pre class="r"><code>sum(is.na(crime_streets$Longitude))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDMxMDA3XG4ifQ== -->
+<pre><code>[1] 31007</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkTGF0aXR1ZGUpKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$Latitude))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDMxMDA3XG4ifQ== -->
+<pre><code>[1] 31007</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkTG9jYXRpb24pKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$Location))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDBcbiJ9 -->
+<pre><code>[1] 0</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYExTT0EgY29kZWApKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$`LSOA code`))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDMxMDA3XG4ifQ== -->
+<pre><code>[1] 31007</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYExTT0EgbmFtZWApKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$`LSOA name`))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDMxMDA3XG4ifQ== -->
+<pre><code>[1] 31007</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYENyaW1lIHR5cGVgKSlcbmBgYCJ9 -->
+<pre class="r"><code>sum(is.na(crime_streets$`Crime type`))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDBcbiJ9 -->
+<pre><code>[1] 0</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYExhc3Qgb3V0Y29tZSBjYXRlZ29yeWApKVxuYGBgIn0= -->
+<pre class="r"><code>sum(is.na(crime_streets$`Last outcome category`))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDE2MDYwMVxuIn0= -->
+<pre><code>[1] 160601</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkQ29udGV4dCkpXG5gYGAifQ== -->
+<pre class="r"><code>sum(is.na(crime_streets$Context))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDY1OTY0MlxuIn0= -->
+<pre><code>[1] 659642</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFibGUoc2FwcGx5KGNyaW1lX3N0cmVldHMkTG9uZ2l0dWRlLCBjbGFzcykpXG5cbmBgYCJ9 -->
+<pre class="r"><code>table(sapply(crime_streets$Longitude, class))
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5udW1lcmljIFxuIDY1OTY0MiBcbiJ9 -->
+<pre><code>
+numeric 
+ 659642 </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFibGUoc2FwcGx5KGNyaW1lX3N0cmVldHMkTGF0aXR1ZGUsIGNsYXNzKSlcbmBgYCJ9 -->
+<pre class="r"><code>table(sapply(crime_streets$Latitude, class))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5udW1lcmljIFxuIDY1OTY0MiBcbiJ9 -->
+<pre><code>
+numeric 
+ 659642 </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFibGUoc2FwcGx5KGNyaW1lX3N0cmVldHMkYENyaW1lIElEYCwgY2xhc3MpKVxuYGBgIn0= -->
+<pre class="r"><code>table(sapply(crime_streets$`Crime ID`, class))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5jaGFyYWN0ZXIgXG4gICA2NTk2NDIgXG4ifQ== -->
+<pre><code>
+character 
+   659642 </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuI0NoZWNrIHRoZSBtb250aCBwYXR0ZXJuXG5icGEoY3JpbWVfc3RyZWV0cyRNb250aCwgdW5pcXVlX29ubHkgPSBUUlVFKVxuXG5gYGAifQ== -->
+<pre class="r"><code>#Check the month pattern
+bpa(crime_streets$Month, unique_only = TRUE)
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiVW5rbm93biBvciB1bmluaXRpYWxpc2VkIGNvbHVtbjogJ01vbnRoJy5cbiJ9 -->
+<pre><code>Unknown or uninitialised column: 'Month'.</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiPCB0YWJsZSBvZiBleHRlbnQgMCA+XG4ifQ== -->
+<pre><code>&lt; table of extent 0 &gt;</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiY3JpbWUgc3RyZWV0IGRhdGEgY2xlYW5pbmciCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCmBgYHtyfQppbnN0YWxsLnBhY2thZ2VzKCdkcGx5cicpCmluc3RhbGwucGFja2FnZXMoJ3JlYWRyJykKaW5zdGFsbC5wYWNrYWdlcygndGlkeXZlcnNlJykKaW5zdGFsbC5wYWNrYWdlcygndGlkeXInKQppbnN0YWxsLnBhY2thZ2VzKCdicGEnKQoKbGlicmFyeShyZWFkcikKbGlicmFyeShkcGx5cikKbGlicmFyeSh0aWR5dmVyc2UpCmxpYnJhcnkodGlkeXIpCmxpYnJhcnkoYnBhKQoKY3JpbWVfc3RyZWV0cyA8LSByZWFkX2Nzdignc291dGgteW9ya3NoaXJlLXN0cmVldC5jc3YnKQpgYGAKClJlbmFtZSBDb2x1bW4gTW9udGggdG8gRGF0ZSAKCmBgYHtyfQoKYGBgCgo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiY3JpbWUgc3RyZWV0IGRhdGEgY2xlYW5pbmciCm91dHB1dDogaHRtbF9ub3RlYm9vawotLS0KCmBgYHtyfQppbnN0YWxsLnBhY2thZ2VzKCdkcGx5cicpCmluc3RhbGwucGFja2FnZXMoJ3JlYWRyJykKaW5zdGFsbC5wYWNrYWdlcygndGlkeXZlcnNlJykKaW5zdGFsbC5wYWNrYWdlcygndGlkeXInKQppbnN0YWxsLnBhY2thZ2VzKCdicGEnKQoKbGlicmFyeShyZWFkcikKbGlicmFyeShkcGx5cikKbGlicmFyeSh0aWR5dmVyc2UpCmxpYnJhcnkodGlkeXIpCmxpYnJhcnkoYnBhKQoKY3JpbWVfc3RyZWV0cyA8LSByZWFkX2Nzdignc291dGgteW9ya3NoaXJlLXN0cmVldC5jc3YnKQpgYGAKClJlbmFtZSBDb2x1bW4gTW9udGggdG8gRGF0ZSAKCmBgYHtyfQojQ2hlY2sgbnVsbCB2YWx1ZXMgb2YgdmFyaWFibGVzIGZvciBkaW1lbnNpb24Kc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYENyaW1lIElEYCkpCnN1bShpcy5uYShjcmltZV9zdHJlZXRzJE1vbnRoKSkKc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYFJlcG9ydGVkIGJ5YCkpCnN1bShpcy5uYShjcmltZV9zdHJlZXRzJGBGYWxscyB3aXRoaW5gKSkKc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkTG9uZ2l0dWRlKSkKc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkTGF0aXR1ZGUpKQpzdW0oaXMubmEoY3JpbWVfc3RyZWV0cyRMb2NhdGlvbikpCnN1bShpcy5uYShjcmltZV9zdHJlZXRzJGBMU09BIGNvZGVgKSkKc3VtKGlzLm5hKGNyaW1lX3N0cmVldHMkYExTT0EgbmFtZWApKQpzdW0oaXMubmEoY3JpbWVfc3RyZWV0cyRgQ3JpbWUgdHlwZWApKQpzdW0oaXMubmEoY3JpbWVfc3RyZWV0cyRgTGFzdCBvdXRjb21lIGNhdGVnb3J5YCkpCnN1bShpcy5uYShjcmltZV9zdHJlZXRzJENvbnRleHQpKQpgYGAKCmBgYHtyfQojQ2hlY2sgdGhlIGNvbnNpc3RlbmN5IG9mIGRhdGEgdHlwZXMgCnRhYmxlKHNhcHBseShjcmltZV9zdHJlZXRzJExvbmdpdHVkZSwgY2xhc3MpKQp0YWJsZShzYXBwbHkoY3JpbWVfc3RyZWV0cyRMYXRpdHVkZSwgY2xhc3MpKQp0YWJsZShzYXBwbHkoY3JpbWVfc3RyZWV0cyRgQ3JpbWUgSURgLCBjbGFzcykpCmBgYApgYGB7cn0KI0NoZWNrIHRoZSBtb250aCBwYXR0ZXJuCmJwYShjcmltZV9zdHJlZXRzJE1vbnRoLCB1bmlxdWVfb25seSA9IFRSVUUpCgojQ2hlY2sgdGhlIExTT0EgQ29kZSBwYXR0ZXJuCmJwYShjcmltZV9zdHJlZXRzJGBMU09BIGNvZGVgLCB1bmlxdWVfb25seSA9IFRSVUUpICAKCiNTcGxpdCBtb250aCBhbmQgeWVhciBjb2x1bW4KY3JpbWVfc3RyZWV0cyA8LSBzZXBhcmF0ZShkYXRhID0gY3JpbWVfc3RyZWV0cywgY29sID0gRGF0ZSwgc2VwPSJbLV0iLCByZW1vdmU9RkFMU0UsIGNvbnZlcnQ9VFJVRSwgaW50bz1jcmltZV9kYXRlKQoKI1NlbGVjdCAmIGRpc3BsYXkgaW52YWxpZCBzcGVjaWZpZWQgZGF0ZXMKc3Vic2V0KGNyaW1lX3N0cmVldHMsIE1vbnRoIDw9IDAgJiBNb250aCA+IDEyIHx8IFllYXIgPCAyMDE1ICYgWWVhciA+IDIwMTgpIAoKI1JlbW92ZSBkdXBsaWNhdGVzIG9ic2VydmF0aW9ucwpjcmltZV9zdHJlZXRzIDwtIHVuaXF1ZShjcmltZV9zdHJlZXRzKQoKYGBgCgo=</div>
 
 
 

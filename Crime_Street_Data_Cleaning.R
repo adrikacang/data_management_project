@@ -1,19 +1,22 @@
-crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
 crime_streets <- read_csv('south-yorkshire-street.csv')
 
-#Tenzin free riding
 
 #Rename Column Month to Date 
-colnames(crime_outcomes)[2] <- "Date"
+colnames(crime_streets)[2] <- "Date"
 
 #Check null values of variables for dimension
-sum(is.na(crime_outcomes$`Crime ID`))
-sum(is.na(crime_outcomes$Month))
-sum(is.na(crime_outcomes$Longitude))
-sum(is.na(crime_outcomes$Latitude))
-sum(is.na(crime_outcomes$Location))
-sum(is.na(crime_outcomes$`LSOA code`))
-sum(is.na(crime_outcomes$`Outcome type`))
+sum(is.na(crime_streets$`Crime ID`))
+sum(is.na(crime_streets$Month))
+sum(is.na(crime_streets$`Reported by`))
+sum(is.na(crime_streets$`Falls within`))
+sum(is.na(crime_streets$Longitude))
+sum(is.na(crime_streets$Latitude))
+sum(is.na(crime_streets$Location))
+sum(is.na(crime_streets$`LSOA code`))
+sum(is.na(crime_streets$`LSOA name`))
+sum(is.na(crime_streets$`Crime type`))
+sum(is.na(crime_streets$`Last outcome category`))
+sum(is.na(crime_streets$Context))
 
 #Check the consistency of data types 
 table(sapply(crime_outcomes$Longitude, class))
