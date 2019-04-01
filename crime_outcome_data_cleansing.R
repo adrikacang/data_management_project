@@ -18,7 +18,7 @@ colnames(crime_outcomes)[2] <- "Date"
 
 #Check null values of variables for dimension
 sum(is.na(crime_outcomes$`Crime ID`))
-sum(is.na(crime_outcomes$Month))
+sum(is.na(crime_outcomes$Date))
 sum(is.na(crime_outcomes$Longitude))
 sum(is.na(crime_outcomes$Latitude))
 sum(is.na(crime_outcomes$Location))
