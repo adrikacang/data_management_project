@@ -18,7 +18,7 @@ colnames(crime_outcomes)[2] <- "Date"
 
 #Check null values of variables for dimension
 sum(is.na(crime_outcomes$`Crime ID`))
-sum(is.na(crime_outcomes$Month))
+sum(is.na(crime_outcomes$Date))
 sum(is.na(crime_outcomes$Longitude))
 sum(is.na(crime_outcomes$Latitude))
 sum(is.na(crime_outcomes$Location))
@@ -37,7 +37,7 @@ bpa(crime_outcomes$Month, unique_only = TRUE)
 bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
 
 #Split month and year column
-crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=crime_date)
+crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
 
 #Select & display invalid specified dates
 subset(crime_outcomes, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
