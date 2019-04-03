@@ -19,24 +19,24 @@ sum(is.na(crime_streets$`Last outcome category`))
 sum(is.na(crime_streets$Context))
 
 #Check the consistency of data types 
-table(sapply(crime_outcomes$Longitude, class))
-table(sapply(crime_outcomes$Latitude, class))
-table(sapply(crime_outcomes$`Crime ID`, class))
+table(sapply(crime_streets$Longitude, class))
+table(sapply(crime_streets$Latitude, class))
+table(sapply(crime_streets$`Crime ID`, class))
 
 #Check the month pattern
-bpa(crime_outcomes$Month, unique_only = TRUE)
+bpa(crime_streets$Month, unique_only = TRUE)
 
 #Check the LSOA Code pattern
-bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
+bpa(crime_streets$`LSOA code`, unique_only = TRUE)  
 
 #Split month and year column
-crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=crime_date)
+crime_streets <- separate(data = crime_streets, col = Month, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
 
 #Select & display invalid specified dates
-subset(crime_outcomes, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
+subset(crime_streets, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
 
 #Remove duplicates observations
-crime_outcomes <- unique(crime_outcomes)
+crime_streets <- unique(crime_streets)
 
 #Integrity Checks Between Datasets
 anti_join(crime_outcomes, crime_streets, by='Crime ID')
