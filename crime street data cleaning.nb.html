@@ -371,16 +371,13 @@ character
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuI0NoZWNrIHRoZSBtb250aCBwYXR0ZXJuXG5icGEoY3JpbWVfc3RyZWV0cyRNb250aCwgdW5pcXVlX29ubHkgPSBUUlVFKVxuXG5gYGAifQ== -->
-<pre class="r"><code>#Check the month pattern
-bpa(crime_streets$Month, unique_only = TRUE)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuI1NlbGVjdCAmIGRpc3BsYXkgaW52YWxpZCBzcGVjaWZpZWQgZGF0ZXNcbnN1YnNldChjcmltZV9zdHJlZXRzLCBNb250aCA8PSAwICYgTW9udGggPiAxMiB8fCBZZWFyIDwgMjAxNSAmIFllYXIgPiAyMDE4KSBcblxuYGBgIn0= -->
+<pre class="r"><code>#Select &amp; display invalid specified dates
+subset(crime_streets, Month &lt;= 0 &amp; Month &gt; 12 || Year &lt; 2015 &amp; Year &gt; 2018) 
 </code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiVW5rbm93biBvciB1bmluaXRpYWxpc2VkIGNvbHVtbjogJ01vbnRoJy5cbiJ9 -->
-<pre><code>Unknown or uninitialised column: 'Month'.</code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiPCB0YWJsZSBvZiBleHRlbnQgMCA+XG4ifQ== -->
-<pre><code>&lt; table of extent 0 &gt;</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gZXZhbChlLCB4LCBwYXJlbnQuZnJhbWUoKSkgOiBvYmplY3QgJ01vbnRoJyBub3QgZm91bmRcbiJ9 -->
+<pre><code>Error in eval(e, x, parent.frame()) : object 'Month' not found</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
