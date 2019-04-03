@@ -63,4 +63,7 @@ crime_streets <- unique(crime_streets)
 anti_join(crime_outcomes, crime_streets, by='Crime ID')
 
 ```
+```{r}
+view(crime_streets)
+```
 
