@@ -7,6 +7,9 @@ library('dplyr')
 Sheffield <- as_tibble(Sheffield) # prints a little nicer
 Sheffield_data <- select(Sheffield, 1:6) # Select first 6 columns
 
+# Export data
+write.csv(Sheffield_data, file="Sheffield_selected.csv", row.names = FALSE)
+
 # Cleansing data
 
 # Step 1, check the values of character variables
