@@ -1,12 +1,21 @@
-library(readr)
+# Load libraries
+library('readr')
+library('dplyr')
 
-#Read social deprivation data, in following sections use "sd data" referring to "social deprivation data"
-social_deprivation <- read_csv("social_deprivation.csv")
+# Selecting the columns, 'LSOA code (2011)', 'LSOA name (2011)', 'Local Authority District code (2013)', 'Local Authority District name (2013)',
+# 'Index of Multiple Deprivation (IMD) Score' and 'Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)' 6 columns
+Sheffield <- as_tibble(Sheffield) # prints a little nicer
+Sheffield_data <- select(Sheffield, 1:6) # Select first 6 columns
 
-crime_streets <- read_csv('south-yorkshire-street.csv')
-crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
+# Export data
+write.csv(Sheffield_data, file="Sheffield_selected.csv", row.names = FALSE)
 
-#Clean social deprivation data
+# Cleansing data
+
+# Step 1, check the values of character variables
+count(Sheffield,Sheffield$`Local Authority District code (2013)`)
+count(Sheffield,Sheffield$`Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)`)
+
 
 
 #Filter to retrieve south yorkshire deprivation datasets only
