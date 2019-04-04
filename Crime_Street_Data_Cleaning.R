@@ -8,6 +8,7 @@ colnames(crime_streets)[2] <- "Date"
 sum(is.na(crime_streets$`Crime ID`))
 sum(is.na(crime_streets$Month))
 sum(is.na(crime_streets$`Reported by`))
+
 sum(is.na(crime_streets$`Falls within`))
 sum(is.na(crime_streets$Longitude))
 sum(is.na(crime_streets$Latitude))
@@ -45,9 +46,10 @@ crime_streets <- separate(data = crime_streets, col = `LSOA name`, sep="[ ]", re
 crime_street_sheffield <- crime_streets[which(crime_streets$county == "Sheffield"),]
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 
-CrimeLocationDim <- table(crime_merge$CrimeID,crime_merge$LSOAcode,crime_merge$Location)
-
 #CrimeLocationDim (LSOA code, Crime ID, Location)
+CrimeLocationDim <- select(crime_merge,1,6,7)
+
 #CrimeOutcomeDim (CrimeID, Outcome, LastOutcome, CrimeType)
+CrimeOutcomeDim <- select(crime_merge,1) 
 #LocationDim (LSOA code, LSOA name, Distinct)
 #SocialDep (MDI Rank, LSOA code, MDI Score, MDI Percentile)
