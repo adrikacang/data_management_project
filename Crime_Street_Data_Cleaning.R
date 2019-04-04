@@ -45,6 +45,8 @@ crime_streets <- separate(data = crime_streets, col = `LSOA name`, sep="[ ]", re
 crime_street_sheffield <- crime_streets[which(crime_streets$county == "Sheffield"),]
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 
+CrimeLocationDim <- table(crime_merge$CrimeID,crime_merge$LSOAcode,crime_merge$Location)
+
 #CrimeLocationDim (LSOA code, Crime ID, Location)
 #CrimeOutcomeDim (CrimeID, Outcome, LastOutcome, CrimeType)
 #LocationDim (LSOA code, LSOA name, Distinct)
