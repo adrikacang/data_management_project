@@ -16,8 +16,10 @@ sqlTables(connection)
 sqlDrop(connection, "DimCrime")
 sqlDrop(connection, "DimLocation")
 sqlDrop(connection, "DimTime")
+sqlDrop(connection, "FactQuestion5")
 
 # copy the DimcCrime dataframe to access database table
 sqlSave(connection, DimCrime, rownames = "id", addPK = T)
 sqlSave(connection, DimLocation, rownames = "id", addPK = T)
 sqlSave(connection, DimTime, rownames = "id", addPK = T)
+sqlSave(connection, FactQuestion5, rownames = "id", addPK = T)
