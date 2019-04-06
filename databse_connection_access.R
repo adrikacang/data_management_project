@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 install.packages("RODBC")
 
 library(RODBC)
@@ -9,3 +10,6 @@ sqlTables(connection)
 
 #collect data from csv files 
 addData = sqlQuery(connection, select(policeYork.street, Month))
+=======
+d
+>>>>>>> a9dfc32ad994cac7a3d1601b353d3700ea6e4580
