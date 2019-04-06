@@ -63,3 +63,5 @@ DimCrime <- select(crime_merge,c("Crime ID","Crime type","Last outcome category"
 #Location Dimension
 DimLocation <- select(crime_merge,6,10,9)
 
+#Select only Outcome from DimCrime dataframe
+#DimCrimeOutcome <- select(DimCrime, c("Outcome type"))
