@@ -55,6 +55,49 @@ crime_street_sheffield <- crime_streets[which(crime_streets$county == "Sheffield
 #merging dataset
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 
+counts <- table(crime_merge$County, useNA ="ifany")
+names(counts)[is.na(names(counts))] <- "NA"
+
+# Display barplot and pieplot
+barplot(counts, main="Country Distribution", xlab='Counts', ylab='Country', horiz=TRUE)
+pie(counts, main="Country Distribution")
+count(crime_merge, County)
+
+#Store indexes of missing values in an integer-valued vector MissingValues=
+which(is.na(crime_merge), arr.ind=TRUE)
+
+#Store indexes of missing values in an integer-valued vector 
+MissingValues= which(is.na(crime_merge), arr.ind=TRUE)
+#Get rownames of missing values and store in object x 
+x = rownames(crime_merge)[MissingValues[,1]]
+#Get column names of missing values and store in object y 
+y = colnames(crime_merge)[MissingValues[,2]]
+#Merge objects x and y with equal dimensions 
+LocatedMissingValues = paste(x, y, sep=" ") 
+LocatedMissingValues
+
+#Check if the columns contain any non-numeric values 
+NonNum <- unlist(lapply(crime_merge, is.numeric)) 
+NonNum
+#List all values in non-numeric columns 
+crime_merge[ , NonNum]
+
+#Check if the columns contain any non-character values 
+NonChar <- unlist(lapply(crime_merge, is.character)) 
+NonChar
+#List all values in non-character columns 
+crime_merge[ , NonChar]
+
+summary(crime_merge)
+
+# Sheffield County (using the subset function) 
+Sheffield1 <- subset(crime_merge, County =="Sheffield")
+#display all the sheffield data  
+Sheffield1
+
+
+
+
 
 # Dimension Table
 
