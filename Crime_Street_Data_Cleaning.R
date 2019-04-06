@@ -59,9 +59,8 @@ crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 # Dimension Table
 
 #Crime Dimension
-DimCrime <- select(crime_merge,c("Crime ID","Crime type","Last outcome category","Outcome type"))
-#Location Dimension
-DimLocation <- select(crime_merge,6,10,9)
+DimCrime <- select(crime_merge,c("Crime ID","Crime type","Last outcome category","Outcome type", "Location.x"))
+colnames(DimCrime)<- c("Crime ID","Crime type","Last outcome category","Outcome type", "Street")
 
 #Select only Outcome from DimCrime dataframe
 #DimCrimeOutcome <- select(DimCrime, c("Outcome type"))
