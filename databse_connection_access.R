@@ -2,13 +2,10 @@ install.packages("RODBC")
 
 library(RODBC)
 
-# Connect to Access db
-#connection <- odbcConnectAccess("C:/Documents/github_project")
+connection <- odbcDriverConnect("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:/Users/kingsparadise/Documents/GitHub/data_management_project/github_project.accdb")
 
-# Get data
-#data <- sqlQuery( connection , paste (Select "Crime_id, Month, Year" From policeYork.Street.csv))
+# check to see if we are connected to the access database
+sqlTables(connection)
 
-connection <- odbcDriverConnect("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:/Documents/github_project.accdb")
-
-# Get data
-#data <- sqlQuery( connection , paste ("select * from Name_of_table_in_my_database"))
+#collect data from csv files 
+addData = sqlQuery(connection, select(policeYork.street, Month))
