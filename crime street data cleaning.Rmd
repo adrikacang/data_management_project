@@ -64,6 +64,7 @@ anti_join(crime_outcomes, crime_streets, by='Crime ID')
 
 ```
 ```{r}
-view(crime_streets)
+crime_streets <- separate(data = crime_streets, col = `LSOA name`, sep="[ ]", remove=FALSE, convert=TRUE, into=c("County", "Code"))
+crime_street_sheffield <- crime_streets[which(crime_streets$county == "Sheffield"),]
 ```
 
