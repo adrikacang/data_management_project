@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 install.packages("RODBC")
 
 library(RODBC)
@@ -8,8 +8,8 @@ connection <- odbcDriverConnect("Driver={Microsoft Access Driver (*.mdb, *.accdb
 # check to see if we are connected to the access database
 sqlTables(connection)
 
-#collect data from csv files 
-addData = sqlQuery(connection, select(policeYork.street, Month))
-=======
-d
->>>>>>> a9dfc32ad994cac7a3d1601b353d3700ea6e4580
+#Drop datable from the access database
+#sqlDrop(connection, "DimCrime")
+
+# copy the DimcCrime dataframe to access database table
+sqlSave(connection, DimCrime, rownames = "id", addPK = T)
