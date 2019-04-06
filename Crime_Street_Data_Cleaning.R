@@ -59,6 +59,6 @@ crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 # Dimension Table
 
 #Crime Dimension
-DimCrime <- select(crime_merge,1,15,28,16)
+DimCrime <- select(crime_merge,c("Crime ID","Crime type","Last outcome category","Outcome type"))
 #Location Dimension
 DimLocation <- select(crime_merge,6,10,9)
