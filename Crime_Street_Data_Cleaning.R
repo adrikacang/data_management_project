@@ -48,8 +48,11 @@ crime_streets <- unique(crime_streets)
 #Integrity Checks Between Datasets
 anti_join(crime_outcomes, crime_streets, by='Crime ID')
 
+#Split Country and code column
 crime_streets <- separate(data = crime_streets, col = `LSOA name`, sep="[ ]", remove=FALSE, convert=TRUE, into=c("County", "Code"))
 crime_street_sheffield <- crime_streets[which(crime_streets$county == "Sheffield"),]
+
+#merging dataset
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 
 
@@ -59,12 +62,3 @@ crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 DimCrime <- select(crime_merge,1,15,28,16)
 #Location Dimension
 DimLocation <- select(crime_merge,6,10,9)
-
-
-
-#CrimeLocationDim (LSOA code, Crime ID, Location)
-CrimeLocationDim <- select(crime_merge,1,6,7)
-#CrimeOutcomeDim (CrimeID, Outcome, LastOutcome, CrimeType)
-CrimeOutcomeDim <- select(crime_merge,1) 
-#LocationDim (LSOA code, LSOA name, Distinct)
-#SocialDep (MDI Rank, LSOA code, MDI Score, MDI Percentile)
