@@ -8,9 +8,6 @@ Sheffield <- read_csv("Social\ deprivation/Sheffield_social_deprivation.csv")
 Sheffield <- as_tibble(Sheffield) # prints a little nicer
 Sheffield_data <- select(Sheffield, 1:6) # Select first 6 columns using location to select
 
-# Export data
-write.csv(Sheffield_data, file="Sheffield_selected.csv", row.names = FALSE)
-
 # Cleansing data
 
 # Step 1, check the values of character variables, the first four attributes
@@ -60,3 +57,5 @@ Sheffield_data[Sheffield_data$`LSOA code (2011)` %in% duplicate$Var1[duplicate$F
 
 # So no duplicate records
 
+# Export data
+write.csv(Sheffield_data, file="Social\ deprivation/Sheffield_selected.csv", row.names = FALSE)
