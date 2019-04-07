@@ -1,0 +1,346 @@
+"","LSOA11CD","LSOA11NM","WD17CD","WD17NM","WD17NMW","LAD17CD","LAD17NM","FID"
+"1","E01033261","Sheffield 073A","E05010862","City",NA,"E08000019","Sheffield",32298
+"2","E01033262","Sheffield 073B","E05010862","City",NA,"E08000019","Sheffield",32299
+"3","E01033263","Sheffield 073C","E05010862","City",NA,"E08000019","Sheffield",32300
+"4","E01033264","Sheffield 073D","E05010862","City",NA,"E08000019","Sheffield",32301
+"5","E01033265","Sheffield 074C","E05010862","City",NA,"E08000019","Sheffield",32302
+"6","E01033266","Sheffield 074D","E05010862","City",NA,"E08000019","Sheffield",32303
+"7","E01033267","Sheffield 074E","E05010862","City",NA,"E08000019","Sheffield",32304
+"8","E01033268","Sheffield 075G","E05010873","Manor Castle",NA,"E08000019","Sheffield",32305
+"9","E01033269","Sheffield 022G","E05010861","Burngreave",NA,"E08000019","Sheffield",32401
+"10","E01033270","Sheffield 022H","E05010861","Burngreave",NA,"E08000019","Sheffield",32402
+"11","E01033271","Sheffield 040E","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",32403
+"12","E01033272","Sheffield 040F","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",32404
+"13","E01033273","Sheffield 042F","E05010862","City",NA,"E08000019","Sheffield",32405
+"14","E01033274","Sheffield 042G","E05010862","City",NA,"E08000019","Sheffield",32406
+"15","E01033275","Sheffield 008F","E05010880","Stannington",NA,"E08000019","Sheffield",32407
+"16","E01033276","Sheffield 073E","E05010882","Walkley",NA,"E08000019","Sheffield",32408
+"17","E01033277","Sheffield 011E","E05010868","Firth Park",NA,"E08000019","Sheffield",32409
+"18","E01033278","Sheffield 076E","E05010859","Birley",NA,"E08000019","Sheffield",32410
+"19","E01033279","Sheffield 076F","E05010859","Birley",NA,"E08000019","Sheffield",32411
+"20","E01033280","Sheffield 008G","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",32412
+"21","E01032585","Sheffield 072E","E05010874","Mosborough",NA,"E08000019","Sheffield",31931
+"22","E01007823","Sheffield 069A","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7625
+"23","E01007824","Sheffield 066A","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7626
+"24","E01007825","Sheffield 066B","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7627
+"25","E01007826","Sheffield 066C","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7628
+"26","E01007827","Sheffield 064A","E05010871","Graves Park",NA,"E08000019","Sheffield",7629
+"27","E01007828","Sheffield 059A","E05010871","Graves Park",NA,"E08000019","Sheffield",7630
+"28","E01007829","Sheffield 059B","E05010871","Graves Park",NA,"E08000019","Sheffield",7631
+"29","E01007830","Sheffield 064B","E05010871","Graves Park",NA,"E08000019","Sheffield",7632
+"30","E01007831","Sheffield 059C","E05010871","Graves Park",NA,"E08000019","Sheffield",7633
+"31","E01007832","Sheffield 059D","E05010871","Graves Park",NA,"E08000019","Sheffield",7634
+"32","E01007833","Sheffield 064C","E05010871","Graves Park",NA,"E08000019","Sheffield",7635
+"33","E01007834","Sheffield 066D","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7636
+"34","E01007835","Sheffield 062A","E05010859","Birley",NA,"E08000019","Sheffield",7637
+"35","E01007836","Sheffield 062B","E05010859","Birley",NA,"E08000019","Sheffield",7638
+"36","E01007838","Sheffield 076A","E05010859","Birley",NA,"E08000019","Sheffield",7639
+"37","E01007839","Sheffield 076B","E05010859","Birley",NA,"E08000019","Sheffield",7640
+"38","E01007841","Sheffield 076C","E05010859","Birley",NA,"E08000019","Sheffield",7641
+"39","E01007842","Sheffield 076D","E05010859","Birley",NA,"E08000019","Sheffield",7642
+"40","E01007843","Sheffield 062C","E05010859","Birley",NA,"E08000019","Sheffield",7643
+"41","E01007846","Sheffield 062D","E05010859","Birley",NA,"E08000019","Sheffield",7644
+"42","E01007847","Sheffield 014A","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7645
+"43","E01007848","Sheffield 013A","E05010868","Firth Park",NA,"E08000019","Sheffield",7646
+"44","E01007849","Sheffield 010A","E05010868","Firth Park",NA,"E08000019","Sheffield",7647
+"45","E01007850","Sheffield 014B","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7648
+"46","E01007851","Sheffield 013B","E05010868","Firth Park",NA,"E08000019","Sheffield",7649
+"47","E01007852","Sheffield 014C","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7650
+"48","E01007853","Sheffield 014D","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7651
+"49","E01007854","Sheffield 014E","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7652
+"50","E01007855","Sheffield 014F","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7653
+"51","E01007856","Sheffield 007A","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7654
+"52","E01007857","Sheffield 010B","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7655
+"53","E01007858","Sheffield 038A","E05010869","Fulwood",NA,"E08000019","Sheffield",7656
+"54","E01007859","Sheffield 036A","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7657
+"55","E01007860","Sheffield 036B","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7658
+"56","E01007861","Sheffield 038B","E05010869","Fulwood",NA,"E08000019","Sheffield",7659
+"57","E01007862","Sheffield 038C","E05010869","Fulwood",NA,"E08000019","Sheffield",7660
+"58","E01007863","Sheffield 036C","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7661
+"59","E01007864","Sheffield 036D","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7662
+"60","E01007865","Sheffield 038D","E05010869","Fulwood",NA,"E08000019","Sheffield",7663
+"61","E01007866","Sheffield 030A","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7664
+"62","E01007867","Sheffield 030B","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7665
+"63","E01007868","Sheffield 030C","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7666
+"64","E01007869","Sheffield 020A","E05010861","Burngreave",NA,"E08000019","Sheffield",7667
+"65","E01007870","Sheffield 019A","E05010861","Burngreave",NA,"E08000019","Sheffield",7668
+"66","E01007871","Sheffield 019B","E05010861","Burngreave",NA,"E08000019","Sheffield",7669
+"67","E01007872","Sheffield 020B","E05010861","Burngreave",NA,"E08000019","Sheffield",7670
+"68","E01007873","Sheffield 020C","E05010861","Burngreave",NA,"E08000019","Sheffield",7671
+"69","E01007874","Sheffield 022A","E05010861","Burngreave",NA,"E08000019","Sheffield",7672
+"70","E01007875","Sheffield 022B","E05010861","Burngreave",NA,"E08000019","Sheffield",7673
+"71","E01007877","Sheffield 022D","E05010861","Burngreave",NA,"E08000019","Sheffield",7674
+"72","E01007878","Sheffield 075A","E05010873","Manor Castle",NA,"E08000019","Sheffield",7675
+"73","E01007879","Sheffield 075B","E05010873","Manor Castle",NA,"E08000019","Sheffield",7676
+"74","E01007881","Sheffield 075C","E05010873","Manor Castle",NA,"E08000019","Sheffield",7677
+"75","E01007882","Sheffield 075D","E05010873","Manor Castle",NA,"E08000019","Sheffield",7678
+"76","E01007883","Sheffield 027A","E05010864","Darnall",NA,"E08000019","Sheffield",7679
+"77","E01007885","Sheffield 075E","E05010873","Manor Castle",NA,"E08000019","Sheffield",7680
+"78","E01007886","Sheffield 075F","E05010873","Manor Castle",NA,"E08000019","Sheffield",7681
+"79","E01007887","Sheffield 004A","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7682
+"80","E01007888","Sheffield 003A","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7683
+"81","E01007889","Sheffield 004B","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7684
+"82","E01007890","Sheffield 004C","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7685
+"83","E01007891","Sheffield 004D","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7686
+"84","E01007892","Sheffield 003B","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7687
+"85","E01007893","Sheffield 003C","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7688
+"86","E01007894","Sheffield 004E","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7689
+"87","E01007895","Sheffield 004F","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7690
+"88","E01007896","Sheffield 004G","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7691
+"89","E01007897","Sheffield 005A","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7692
+"90","E01007898","Sheffield 003D","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7693
+"91","E01007899","Sheffield 003E","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7694
+"92","E01007900","Sheffield 003F","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7695
+"93","E01007901","Sheffield 003G","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7696
+"94","E01007902","Sheffield 027B","E05010864","Darnall",NA,"E08000019","Sheffield",7697
+"95","E01007903","Sheffield 018A","E05010864","Darnall",NA,"E08000019","Sheffield",7698
+"96","E01007904","Sheffield 018B","E05010864","Darnall",NA,"E08000019","Sheffield",7699
+"97","E01007905","Sheffield 027C","E05010864","Darnall",NA,"E08000019","Sheffield",7700
+"98","E01008006","Sheffield 054D","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7701
+"99","E01008007","Sheffield 060A","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7702
+"100","E01008008","Sheffield 045D","E05010877","Richmond",NA,"E08000019","Sheffield",7703
+"101","E01008009","Sheffield 045E","E05010877","Richmond",NA,"E08000019","Sheffield",7704
+"102","E01008010","Sheffield 052E","E05010877","Richmond",NA,"E08000019","Sheffield",7705
+"103","E01008011","Sheffield 039A","E05010873","Manor Castle",NA,"E08000019","Sheffield",7706
+"104","E01008012","Sheffield 039B","E05010873","Manor Castle",NA,"E08000019","Sheffield",7707
+"105","E01008013","Sheffield 039C","E05010873","Manor Castle",NA,"E08000019","Sheffield",7708
+"106","E01008014","Sheffield 032E","E05010864","Darnall",NA,"E08000019","Sheffield",7709
+"107","E01008015","Sheffield 039D","E05010873","Manor Castle",NA,"E08000019","Sheffield",7710
+"108","E01008016","Sheffield 032F","E05010864","Darnall",NA,"E08000019","Sheffield",7711
+"109","E01008017","Sheffield 039E","E05010873","Manor Castle",NA,"E08000019","Sheffield",7712
+"110","E01008018","Sheffield 039F","E05010873","Manor Castle",NA,"E08000019","Sheffield",7713
+"111","E01008019","Sheffield 065A","E05010874","Mosborough",NA,"E08000019","Sheffield",7714
+"112","E01008020","Sheffield 065B","E05010874","Mosborough",NA,"E08000019","Sheffield",7715
+"113","E01008021","Sheffield 072A","E05010874","Mosborough",NA,"E08000019","Sheffield",7716
+"114","E01008022","Sheffield 065C","E05010874","Mosborough",NA,"E08000019","Sheffield",7717
+"115","E01008023","Sheffield 072B","E05010874","Mosborough",NA,"E08000019","Sheffield",7718
+"116","E01008024","Sheffield 072C","E05010874","Mosborough",NA,"E08000019","Sheffield",7719
+"117","E01008025","Sheffield 072D","E05010874","Mosborough",NA,"E08000019","Sheffield",7720
+"118","E01008027","Sheffield 065D","E05010874","Mosborough",NA,"E08000019","Sheffield",7721
+"119","E01008028","Sheffield 056A","E05010858","Beighton",NA,"E08000019","Sheffield",7722
+"120","E01008029","Sheffield 056B","E05010858","Beighton",NA,"E08000019","Sheffield",7723
+"121","E01008030","Sheffield 063A","E05010858","Beighton",NA,"E08000019","Sheffield",7724
+"122","E01008031","Sheffield 061A","E05010858","Beighton",NA,"E08000019","Sheffield",7725
+"123","E01008032","Sheffield 056C","E05010858","Beighton",NA,"E08000019","Sheffield",7726
+"124","E01008033","Sheffield 061B","E05010858","Beighton",NA,"E08000019","Sheffield",7727
+"125","E01008034","Sheffield 056D","E05010858","Beighton",NA,"E08000019","Sheffield",7728
+"126","E01008035","Sheffield 063B","E05010858","Beighton",NA,"E08000019","Sheffield",7729
+"127","E01008036","Sheffield 063C","E05010858","Beighton",NA,"E08000019","Sheffield",7730
+"128","E01008037","Sheffield 065E","E05010874","Mosborough",NA,"E08000019","Sheffield",7731
+"129","E01008038","Sheffield 061C","E05010858","Beighton",NA,"E08000019","Sheffield",7732
+"130","E01008039","Sheffield 065F","E05010874","Mosborough",NA,"E08000019","Sheffield",7733
+"131","E01008040","Sheffield 061D","E05010858","Beighton",NA,"E08000019","Sheffield",7734
+"132","E01008041","Sheffield 063D","E05010858","Beighton",NA,"E08000019","Sheffield",7735
+"133","E01008042","Sheffield 050A","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7736
+"134","E01008043","Sheffield 046A","E05010867","Ecclesall",NA,"E08000019","Sheffield",7737
+"135","E01008044","Sheffield 046B","E05010867","Ecclesall",NA,"E08000019","Sheffield",7738
+"136","E01008045","Sheffield 050B","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7739
+"137","E01008046","Sheffield 050C","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7740
+"138","E01008047","Sheffield 046C","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7741
+"139","E01008048","Sheffield 046D","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7742
+"140","E01008049","Sheffield 050D","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7743
+"141","E01008050","Sheffield 046E","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7744
+"142","E01008051","Sheffield 050E","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7745
+"143","E01008052","Sheffield 050F","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7746
+"144","E01008053","Sheffield 006A","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7747
+"145","E01008054","Sheffield 007B","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7748
+"146","E01008055","Sheffield 007C","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7749
+"147","E01008056","Sheffield 006B","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7750
+"148","E01007906","Sheffield 027D","E05010864","Darnall",NA,"E08000019","Sheffield",7751
+"149","E01007907","Sheffield 032A","E05010864","Darnall",NA,"E08000019","Sheffield",7752
+"150","E01007908","Sheffield 032B","E05010864","Darnall",NA,"E08000019","Sheffield",7753
+"151","E01007909","Sheffield 032C","E05010884","Woodhouse",NA,"E08000019","Sheffield",7754
+"152","E01007910","Sheffield 037A","E05010884","Woodhouse",NA,"E08000019","Sheffield",7755
+"153","E01007911","Sheffield 032D","E05010884","Woodhouse",NA,"E08000019","Sheffield",7756
+"154","E01007912","Sheffield 037B","E05010877","Richmond",NA,"E08000019","Sheffield",7757
+"155","E01007913","Sheffield 018C","E05010864","Darnall",NA,"E08000019","Sheffield",7758
+"156","E01007914","Sheffield 018D","E05010864","Darnall",NA,"E08000019","Sheffield",7759
+"157","E01007915","Sheffield 071A","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7760
+"158","E01007916","Sheffield 069B","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7761
+"159","E01007917","Sheffield 071B","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7762
+"160","E01007918","Sheffield 071C","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7763
+"161","E01007919","Sheffield 069C","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7764
+"162","E01007920","Sheffield 068A","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7765
+"163","E01007921","Sheffield 068B","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7766
+"164","E01007922","Sheffield 071D","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7767
+"165","E01007923","Sheffield 068C","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7768
+"166","E01007924","Sheffield 071E","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7769
+"167","E01007925","Sheffield 068D","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7770
+"168","E01007926","Sheffield 068E","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7771
+"169","E01007927","Sheffield 055A","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7772
+"170","E01007928","Sheffield 055B","E05010867","Ecclesall",NA,"E08000019","Sheffield",7773
+"171","E01007929","Sheffield 055C","E05010867","Ecclesall",NA,"E08000019","Sheffield",7774
+"172","E01007930","Sheffield 055D","E05010867","Ecclesall",NA,"E08000019","Sheffield",7775
+"173","E01007931","Sheffield 047A","E05010867","Ecclesall",NA,"E08000019","Sheffield",7776
+"174","E01007932","Sheffield 055E","E05010867","Ecclesall",NA,"E08000019","Sheffield",7777
+"175","E01007933","Sheffield 068F","E05010865","Dore and Totley",NA,"E08000019","Sheffield",7778
+"176","E01007934","Sheffield 047B","E05010867","Ecclesall",NA,"E08000019","Sheffield",7779
+"177","E01007935","Sheffield 047C","E05010867","Ecclesall",NA,"E08000019","Sheffield",7780
+"178","E01007936","Sheffield 047D","E05010867","Ecclesall",NA,"E08000019","Sheffield",7781
+"179","E01007937","Sheffield 047E","E05010867","Ecclesall",NA,"E08000019","Sheffield",7782
+"180","E01007938","Sheffield 047F","E05010867","Ecclesall",NA,"E08000019","Sheffield",7783
+"181","E01007939","Sheffield 055F","E05010867","Ecclesall",NA,"E08000019","Sheffield",7784
+"182","E01007940","Sheffield 022E","E05010861","Burngreave",NA,"E08000019","Sheffield",7785
+"183","E01007941","Sheffield 015A","E05010868","Firth Park",NA,"E08000019","Sheffield",7786
+"184","E01007942","Sheffield 020D","E05010861","Burngreave",NA,"E08000019","Sheffield",7787
+"185","E01007943","Sheffield 019C","E05010861","Burngreave",NA,"E08000019","Sheffield",7788
+"186","E01007944","Sheffield 022F","E05010861","Burngreave",NA,"E08000019","Sheffield",7789
+"187","E01007945","Sheffield 015B","E05010868","Firth Park",NA,"E08000019","Sheffield",7790
+"188","E01007946","Sheffield 015C","E05010868","Firth Park",NA,"E08000019","Sheffield",7791
+"189","E01007947","Sheffield 013C","E05010868","Firth Park",NA,"E08000019","Sheffield",7792
+"190","E01007948","Sheffield 013D","E05010868","Firth Park",NA,"E08000019","Sheffield",7793
+"191","E01007949","Sheffield 020E","E05010861","Burngreave",NA,"E08000019","Sheffield",7794
+"192","E01007950","Sheffield 015D","E05010868","Firth Park",NA,"E08000019","Sheffield",7795
+"193","E01007951","Sheffield 029A","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7796
+"194","E01007952","Sheffield 033A","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7797
+"195","E01007953","Sheffield 033B","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7798
+"196","E01007954","Sheffield 033C","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7799
+"197","E01007955","Sheffield 041A","E05010869","Fulwood",NA,"E08000019","Sheffield",7800
+"198","E01008057","Sheffield 007D","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7801
+"199","E01008058","Sheffield 006C","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7802
+"200","E01008059","Sheffield 010C","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7803
+"201","E01008060","Sheffield 010D","E05010878","Shiregreen and Brightside",NA,"E08000019","Sheffield",7804
+"202","E01008061","Sheffield 011A","E05010868","Firth Park",NA,"E08000019","Sheffield",7805
+"203","E01008062","Sheffield 013E","E05010868","Firth Park",NA,"E08000019","Sheffield",7806
+"204","E01008063","Sheffield 011B","E05010868","Firth Park",NA,"E08000019","Sheffield",7807
+"205","E01008064","Sheffield 028A","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7808
+"206","E01008065","Sheffield 026A","E05010882","Walkley",NA,"E08000019","Sheffield",7809
+"207","E01008066","Sheffield 028B","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7810
+"208","E01008067","Sheffield 030D","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7811
+"209","E01008068","Sheffield 026B","E05010882","Walkley",NA,"E08000019","Sheffield",7812
+"210","E01008069","Sheffield 028C","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7813
+"211","E01008072","Sheffield 026C","E05010882","Walkley",NA,"E08000019","Sheffield",7814
+"212","E01008073","Sheffield 030E","E05010882","Walkley",NA,"E08000019","Sheffield",7815
+"213","E01008074","Sheffield 028D","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7816
+"214","E01008075","Sheffield 060B","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7817
+"215","E01008076","Sheffield 060C","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7818
+"216","E01008077","Sheffield 060D","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7819
+"217","E01008078","Sheffield 064E","E05010871","Graves Park",NA,"E08000019","Sheffield",7820
+"218","E01008079","Sheffield 064F","E05010871","Graves Park",NA,"E08000019","Sheffield",7821
+"219","E01008080","Sheffield 069D","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7822
+"220","E01008081","Sheffield 070A","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7823
+"221","E01008082","Sheffield 070B","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7824
+"222","E01008083","Sheffield 070C","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7825
+"223","E01008084","Sheffield 070D","E05010857","Beauchief and Greenhill",NA,"E08000019","Sheffield",7826
+"224","E01008085","Sheffield 009A","E05010879","Southey",NA,"E08000019","Sheffield",7827
+"225","E01008086","Sheffield 009B","E05010879","Southey",NA,"E08000019","Sheffield",7828
+"226","E01008087","Sheffield 012A","E05010879","Southey",NA,"E08000019","Sheffield",7829
+"227","E01008088","Sheffield 012B","E05010879","Southey",NA,"E08000019","Sheffield",7830
+"228","E01008089","Sheffield 017B","E05010872","Hillsborough",NA,"E08000019","Sheffield",7831
+"229","E01008090","Sheffield 012C","E05010879","Southey",NA,"E08000019","Sheffield",7832
+"230","E01008091","Sheffield 017C","E05010872","Hillsborough",NA,"E08000019","Sheffield",7833
+"231","E01008092","Sheffield 012D","E05010879","Southey",NA,"E08000019","Sheffield",7834
+"232","E01008093","Sheffield 017D","E05010872","Hillsborough",NA,"E08000019","Sheffield",7835
+"233","E01008094","Sheffield 019D","E05010879","Southey",NA,"E08000019","Sheffield",7836
+"234","E01008095","Sheffield 043A","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7837
+"235","E01008096","Sheffield 043B","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7838
+"236","E01008097","Sheffield 043C","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7839
+"237","E01008098","Sheffield 048A","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7840
+"238","E01008099","Sheffield 051E","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7841
+"239","E01008100","Sheffield 048B","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7842
+"240","E01008101","Sheffield 043D","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7843
+"241","E01008102","Sheffield 048C","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7844
+"242","E01008103","Sheffield 048D","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7845
+"243","E01008104","Sheffield 036E","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7846
+"244","E01008105","Sheffield 040A","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7847
+"245","E01008107","Sheffield 040C","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7848
+"246","E01008108","Sheffield 042A","E05010862","City",NA,"E08000019","Sheffield",7849
+"247","E01008109","Sheffield 042B","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7850
+"248","E01007956","Sheffield 041B","E05010869","Fulwood",NA,"E08000019","Sheffield",7851
+"249","E01007957","Sheffield 041C","E05010869","Fulwood",NA,"E08000019","Sheffield",7852
+"250","E01007958","Sheffield 041D","E05010869","Fulwood",NA,"E08000019","Sheffield",7853
+"251","E01007959","Sheffield 041E","E05010869","Fulwood",NA,"E08000019","Sheffield",7854
+"252","E01007960","Sheffield 029B","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7855
+"253","E01007961","Sheffield 033D","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7856
+"254","E01007962","Sheffield 029C","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7857
+"255","E01007963","Sheffield 045A","E05010877","Richmond",NA,"E08000019","Sheffield",7858
+"256","E01007964","Sheffield 049A","E05010884","Woodhouse",NA,"E08000019","Sheffield",7859
+"257","E01007965","Sheffield 044A","E05010884","Woodhouse",NA,"E08000019","Sheffield",7860
+"258","E01007966","Sheffield 049B","E05010884","Woodhouse",NA,"E08000019","Sheffield",7861
+"259","E01007967","Sheffield 045B","E05010877","Richmond",NA,"E08000019","Sheffield",7862
+"260","E01007968","Sheffield 049C","E05010884","Woodhouse",NA,"E08000019","Sheffield",7863
+"261","E01007969","Sheffield 044B","E05010884","Woodhouse",NA,"E08000019","Sheffield",7864
+"262","E01007970","Sheffield 049D","E05010884","Woodhouse",NA,"E08000019","Sheffield",7865
+"263","E01007971","Sheffield 037C","E05010884","Woodhouse",NA,"E08000019","Sheffield",7866
+"264","E01007972","Sheffield 044C","E05010884","Woodhouse",NA,"E08000019","Sheffield",7867
+"265","E01007973","Sheffield 037D","E05010877","Richmond",NA,"E08000019","Sheffield",7868
+"266","E01007974","Sheffield 044D","E05010884","Woodhouse",NA,"E08000019","Sheffield",7869
+"267","E01007975","Sheffield 051A","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7870
+"268","E01007976","Sheffield 051B","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7871
+"269","E01007977","Sheffield 051C","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7872
+"270","E01007978","Sheffield 053A","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7873
+"271","E01007979","Sheffield 051D","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7874
+"272","E01007980","Sheffield 053B","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7875
+"273","E01007981","Sheffield 053C","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7876
+"274","E01007982","Sheffield 054A","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7877
+"275","E01007983","Sheffield 053D","E05010870","Gleadless Valley",NA,"E08000019","Sheffield",7878
+"276","E01007984","Sheffield 064D","E05010871","Graves Park",NA,"E08000019","Sheffield",7879
+"277","E01007985","Sheffield 053E","E05010871","Graves Park",NA,"E08000019","Sheffield",7880
+"278","E01007986","Sheffield 059E","E05010871","Graves Park",NA,"E08000019","Sheffield",7881
+"279","E01007987","Sheffield 016A","E05010872","Hillsborough",NA,"E08000019","Sheffield",7882
+"280","E01007988","Sheffield 016B","E05010872","Hillsborough",NA,"E08000019","Sheffield",7883
+"281","E01007989","Sheffield 016C","E05010872","Hillsborough",NA,"E08000019","Sheffield",7884
+"282","E01007990","Sheffield 021A","E05010872","Hillsborough",NA,"E08000019","Sheffield",7885
+"283","E01007991","Sheffield 016D","E05010872","Hillsborough",NA,"E08000019","Sheffield",7886
+"284","E01007992","Sheffield 021B","E05010872","Hillsborough",NA,"E08000019","Sheffield",7887
+"285","E01007993","Sheffield 021C","E05010872","Hillsborough",NA,"E08000019","Sheffield",7888
+"286","E01007994","Sheffield 021D","E05010872","Hillsborough",NA,"E08000019","Sheffield",7889
+"287","E01007995","Sheffield 017A","E05010872","Hillsborough",NA,"E08000019","Sheffield",7890
+"288","E01007996","Sheffield 021E","E05010872","Hillsborough",NA,"E08000019","Sheffield",7891
+"289","E01007997","Sheffield 025A","E05010880","Stannington",NA,"E08000019","Sheffield",7892
+"290","E01007998","Sheffield 025B","E05010880","Stannington",NA,"E08000019","Sheffield",7893
+"291","E01007999","Sheffield 045C","E05010877","Richmond",NA,"E08000019","Sheffield",7894
+"292","E01008000","Sheffield 052A","E05010877","Richmond",NA,"E08000019","Sheffield",7895
+"293","E01008001","Sheffield 052B","E05010877","Richmond",NA,"E08000019","Sheffield",7896
+"294","E01008002","Sheffield 054B","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7897
+"295","E01008003","Sheffield 054C","E05010876","Park and Arbourthorne",NA,"E08000019","Sheffield",7898
+"296","E01008004","Sheffield 052C","E05010877","Richmond",NA,"E08000019","Sheffield",7899
+"297","E01008005","Sheffield 052D","E05010877","Richmond",NA,"E08000019","Sheffield",7900
+"298","E01008111","Sheffield 040D","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7901
+"299","E01008112","Sheffield 042D","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7902
+"300","E01008113","Sheffield 042E","E05010875","Nether Edge and Sharrow",NA,"E08000019","Sheffield",7903
+"301","E01008114","Sheffield 074A","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7904
+"302","E01008115","Sheffield 074B","E05010860","Broomhill and Sharrow Vale",NA,"E08000019","Sheffield",7905
+"303","E01008116","Sheffield 009C","E05010879","Southey",NA,"E08000019","Sheffield",7906
+"304","E01008117","Sheffield 009D","E05010879","Southey",NA,"E08000019","Sheffield",7907
+"305","E01008118","Sheffield 009E","E05010879","Southey",NA,"E08000019","Sheffield",7908
+"306","E01008119","Sheffield 009F","E05010879","Southey",NA,"E08000019","Sheffield",7909
+"307","E01008122","Sheffield 012E","E05010879","Southey",NA,"E08000019","Sheffield",7910
+"308","E01008123","Sheffield 015E","E05010868","Firth Park",NA,"E08000019","Sheffield",7911
+"309","E01008124","Sheffield 012F","E05010879","Southey",NA,"E08000019","Sheffield",7912
+"310","E01008125","Sheffield 009G","E05010879","Southey",NA,"E08000019","Sheffield",7913
+"311","E01008126","Sheffield 008A","E05010880","Stannington",NA,"E08000019","Sheffield",7914
+"312","E01008128","Sheffield 008C","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7915
+"313","E01008129","Sheffield 023A","E05010880","Stannington",NA,"E08000019","Sheffield",7916
+"314","E01008130","Sheffield 023B","E05010880","Stannington",NA,"E08000019","Sheffield",7917
+"315","E01008131","Sheffield 023C","E05010880","Stannington",NA,"E08000019","Sheffield",7918
+"316","E01008132","Sheffield 023D","E05010880","Stannington",NA,"E08000019","Sheffield",7919
+"317","E01008133","Sheffield 023E","E05010880","Stannington",NA,"E08000019","Sheffield",7920
+"318","E01008134","Sheffield 005B","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7921
+"319","E01008135","Sheffield 005C","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7922
+"320","E01008136","Sheffield 008D","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7923
+"321","E01008137","Sheffield 005D","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7924
+"322","E01008138","Sheffield 006D","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7925
+"323","E01008139","Sheffield 006E","E05010866","East Ecclesfield",NA,"E08000019","Sheffield",7926
+"324","E01008140","Sheffield 008E","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7927
+"325","E01008141","Sheffield 005E","E05010883","West Ecclesfield",NA,"E08000019","Sheffield",7928
+"326","E01008142","Sheffield 002A","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7929
+"327","E01008143","Sheffield 002B","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7930
+"328","E01008144","Sheffield 001A","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7931
+"329","E01008145","Sheffield 001B","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7932
+"330","E01008146","Sheffield 002C","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7933
+"331","E01008147","Sheffield 002D","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7934
+"332","E01008148","Sheffield 001C","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7935
+"333","E01008149","Sheffield 001D","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7936
+"334","E01008150","Sheffield 001E","E05010881","Stocksbridge and Upper Don",NA,"E08000019","Sheffield",7937
+"335","E01008151","Sheffield 024A","E05010882","Walkley",NA,"E08000019","Sheffield",7938
+"336","E01008152","Sheffield 025C","E05010880","Stannington",NA,"E08000019","Sheffield",7939
+"337","E01008153","Sheffield 024B","E05010882","Walkley",NA,"E08000019","Sheffield",7940
+"338","E01008154","Sheffield 024C","E05010882","Walkley",NA,"E08000019","Sheffield",7941
+"339","E01008155","Sheffield 024D","E05010882","Walkley",NA,"E08000019","Sheffield",7942
+"340","E01008156","Sheffield 024E","E05010882","Walkley",NA,"E08000019","Sheffield",7943
+"341","E01008157","Sheffield 026D","E05010882","Walkley",NA,"E08000019","Sheffield",7944
+"342","E01008158","Sheffield 025D","E05010880","Stannington",NA,"E08000019","Sheffield",7945
+"343","E01008159","Sheffield 029D","E05010863","Crookes and Crosspool",NA,"E08000019","Sheffield",7946
+"344","E01008160","Sheffield 024F","E05010882","Walkley",NA,"E08000019","Sheffield",7947
+"345","E01008161","Sheffield 026E","E05010882","Walkley",NA,"E08000019","Sheffield",7948
