@@ -1,4 +1,4 @@
-"LSOA code (2011)","LSOA name (2011)","Local Authority District code (2013)","Local Authority District name (2013)","Index of Multiple Deprivation (IMD) Score","Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)"
+"LSOA_code","LSOA_name","Local_authority_district_code","Local_authority_district_name","IMD_score","IMD_rank"
 "E01008144","Sheffield 001A","E08000019","Sheffield",17.495,16329
 "E01008145","Sheffield 001B","E08000019","Sheffield",31.785,7400
 "E01008148","Sheffield 001C","E08000019","Sheffield",26.938,9753
