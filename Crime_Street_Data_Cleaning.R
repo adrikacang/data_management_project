@@ -102,6 +102,13 @@ Sheffield1
 # Dimension Table
 
 #Crime Dimension
-DimCrime <- select(crime_merge,1,15,28,16)
-#Location Dimension
-DimLocation <- select(crime_merge,6,10,9)
+DimCrime <- select(crime_merge,c("Crime ID","Crime type","Last outcome category","Outcome type", "Location.x"))
+colnames(DimCrime)<- c("Crime ID","Crime type","Last outcome category","Outcome type", "Street")
+
+#Time Dimension
+DimTime <- select(crime_merge, c("Month.x"))
+DimTime <- separate(data = DimTime, col = Month.x, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year","Month"))
+colnames(DimTime) <- c("Time ID", "Year", "Month")
+DimTime <- unique(DimTime)
+#Select only Outcome from DimCrime dataframe
+#DimCrimeOutcome <- select(DimCrime, c("Outcome type"))

@@ -37,7 +37,7 @@ bpa(crime_outcomes$Month, unique_only = TRUE)
 bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
 
 #Split month and year column
-crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
+crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year","Month"))
 
 #Select & display invalid specified dates
 subset(crime_outcomes, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
