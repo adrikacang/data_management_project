@@ -57,5 +57,13 @@ Sheffield_data[Sheffield_data$`LSOA code (2011)` %in% duplicate$Var1[duplicate$F
 
 # So no duplicate records
 
+# Rename the columns
+names(Sheffield_data)[1]<-"LSOA_code"
+names(Sheffield_data)[2]<-"LSOA_name"
+names(Sheffield_data)[3]<-"Local_authority_district_code"
+names(Sheffield_data)[4]<-"Local_authority_district_name"
+names(Sheffield_data)[5]<-"IMD_score"
+names(Sheffield_data)[6]<-"IMD_rank"
+
 # Export data
 write.csv(Sheffield_data, file="Social\ deprivation/Sheffield_selected.csv", row.names = FALSE)
