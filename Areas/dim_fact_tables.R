@@ -21,11 +21,13 @@ crime_areas <- read_csv("crime-areas-Sheffield.csv")
 t <- separate(data = crime_areas, col = 'LSOA name', into=c("City","code"), sep="[ ]", remove=TRUE, convert=TRUE)
 DimLocation <- select(t,c("LSOA code","Area","City"))
 colnames(DimLocation)<- c("Location ID","Area","City")
+write.csv(DimLocation, file="DimLocation_Sheffield_Areas.csv")
 
 # Time Dimension
 DimTime <- select(crime_areas, c("X1","Year","Month"))
 colnames(DimTime) <- c("Time ID", "Year", "Month")
 DimTime <- unique(DimTime)
+write.csv(DimTime, file="DimTime_Sheffield_Areas.csv")
 
 # Fact table: already created in the extract_transform_areas.R
 #FactQ2 <- select(crime_areas, c("Year","Month","Location", "Crime type", "Area"))
