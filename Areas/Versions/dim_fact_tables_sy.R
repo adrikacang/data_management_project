@@ -20,7 +20,7 @@ crime_areas <- read_csv("Areas/crime-areas-SY.csv")
 # Split year and month into integer columns
 DimLocation <- select(crime_areas,c("LSOA code","Area","City"))
 colnames(DimLocation)<- c("Location ID","Area","City")
-write.csv(DimLocation, file="Areas/DimLocation_SY_Areas.csv")
+#write.csv(DimLocation, file="Areas/DimLocation_SY_Areas.csv")
 
 # Time Dimension
 DimTime <- select(crime_areas, c("X1","Year","Month"))
