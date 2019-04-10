@@ -36,6 +36,9 @@ bpa(crime_outcomes$Month, unique_only = TRUE)
 #Check the LSOA Code pattern
 bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
 
+#Check if crime type has missing values
+count_crime_type <- table(crime_merge$`Crime type`, useNA ="ifany")
+
 #Split month and year column
 crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year","Month"))
 
