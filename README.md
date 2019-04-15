@@ -17,5 +17,9 @@ Provide a year by year breakdown of the crime types based on the age and race?
 Convert long and latitude to address name (Using R)
 https://stackoverflow.com/questions/29921605/r-how-to-convert-latitude-and-longitude-coordinates-into-an-address-human-rea
 
+**Understanding of dim tables**
+
+https://www.sciencedirect.com/topics/computer-science/dimension-table
+
 **Data Diagram**
 ![alt text](https://raw.githubusercontent.com/adrikacang/data_management_project/bdbe4ac4dc0a806cc7488b973a743d7f0824b036/diagram.png)
