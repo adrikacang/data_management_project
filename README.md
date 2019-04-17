@@ -23,3 +23,10 @@ https://www.sciencedirect.com/topics/computer-science/dimension-table
 
 **Data Diagram**
 ![alt text](https://raw.githubusercontent.com/adrikacang/data_management_project/bdbe4ac4dc0a806cc7488b973a743d7f0824b036/diagram.png)
+
+
+## How To Run
+1. Run load_library.R
+2. Run crime_outcome_data_cleansing.R
+3. Run crime_streets_data_cleansing.R
+4. Run crime_data_transformation.R (This will make crime dimension and time dimension)
