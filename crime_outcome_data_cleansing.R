@@ -1,9 +1,3 @@
-install.packages('dplyr')
-install.packages('readr')
-install.packages('tidyverse')
-install.packages('tidyr')
-install.packages('bpa')
-
 library(readr)
 library(dplyr)
 library(tidyverse)
@@ -31,7 +25,7 @@ table(sapply(crime_outcomes$Latitude, class))
 table(sapply(crime_outcomes$`Crime ID`, class))
 
 #Check the month pattern
-bpa(crime_outcomes$Month, unique_only = TRUE)
+bpa(crime_outcomes$Date, unique_only = TRUE)
 
 #Check the LSOA Code pattern
 bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
