@@ -1,9 +1,4 @@
-library(readr)
-library(dplyr)
-library(tidyverse)
-library(tidyr)
-library(bpa)
-
+crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
 crime_streets <- read_csv('south-yorkshire-street.csv')
 
 
@@ -12,7 +7,7 @@ colnames(crime_streets)[2] <- "Date"
 
 #Check null values of variables for dimension
 sum(is.na(crime_streets$`Crime ID`))
-sum(is.na(crime_streets$Month))
+sum(is.na(crime_streets$Date))
 sum(is.na(crime_streets$`Reported by`))
 
 sum(is.na(crime_streets$`Falls within`))
@@ -31,13 +26,13 @@ table(sapply(crime_streets$Latitude, class))
 table(sapply(crime_streets$`Crime ID`, class))
 
 #Check the month pattern
-bpa(crime_streets$Month, unique_only = TRUE)
+bpa(crime_streets$Date, unique_only = TRUE)
 
 #Check the LSOA Code pattern
 bpa(crime_streets$`LSOA code`, unique_only = TRUE)  
 
 #Split month and year column
-crime_streets <- separate(data = crime_streets, col = Month, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
+crime_streets <- separate(data = crime_streets, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
 
 #Select & display invalid specified dates
 subset(crime_streets, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
@@ -94,21 +89,3 @@ summary(crime_merge)
 Sheffield1 <- subset(crime_merge, County =="Sheffield")
 #display all the sheffield data  
 Sheffield1
-
-
-
-
-
-# Dimension Table
-
-#Crime Dimension
-DimCrime <- select(crime_merge,c("Crime ID","Crime type","Last outcome category","Outcome type", "Location.x"))
-colnames(DimCrime)<- c("Crime ID","Crime type","Last outcome category","Outcome type", "Street")
-
-#Time Dimension
-DimTime <- select(crime_merge, c("Month.x"))
-DimTime <- separate(data = DimTime, col = Month.x, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year","Month"))
-colnames(DimTime) <- c("Time ID", "Year", "Month")
-DimTime <- unique(DimTime)
-#Select only Outcome from DimCrime dataframe
-#DimCrimeOutcome <- select(DimCrime, c("Outcome type"))
