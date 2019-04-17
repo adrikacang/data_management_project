@@ -1,0 +1,12 @@
+install.packages('dplyr')
+install.packages('readr')
+install.packages('tidyverse')
+install.packages('tidyr')
+install.packages('bpa')
+
+library(readr)
+library(dplyr)
+library(tidyverse)
+library(tidyr)
+library(bpa)
+library(rserve)
