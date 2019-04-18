@@ -10,7 +10,7 @@ library(RODBC)
 
 
 # Connect to Access file
-connection <- odbcDriverConnect("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:/Users/Anna/Documents/GitHub/data_management_project/Database/Datamart_v3.accdb")
+connection <- odbcDriverConnect("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:/Users/Anna/Documents/GitHub/data_management_project/Database/Datamart_v3_population.accdb")
 
 # From Adrian code
 # check to see if we are connected to the access database
@@ -27,7 +27,7 @@ sqlDrop(connection, 'crime_areas_SY')
 #sqlDrop(connection, "FactQuestion5")
 
 # Load fact table
-crime_areas_SY <- read_csv("Areas/crime-areas-SY_v2.csv")
+crime_areas_SY <- read_csv("Areas/crime-areas-SY_v3.csv")
 
 # Copy table to Access database
 sqlSave(connection, DimLocation, tablename = 'DimLocation', rownames = "id", addPK = T, safer = FALSE)
