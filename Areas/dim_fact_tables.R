@@ -19,8 +19,8 @@ crime_areas <- read_csv("crime-areas-Sheffield.csv")
 
 # Split year and month into integer columns
 t <- separate(data = crime_areas, col = 'LSOA name', into=c("City","code"), sep="[ ]", remove=TRUE, convert=TRUE)
-DimLocation <- select(t,c("LSOA code","Area","City"))
-colnames(DimLocation)<- c("Location ID","Area","City")
+DimLocation <- select(t,c("LSOA code","Area","City", "Location"))
+colnames(DimLocation)<- c("Location ID","Area","City", "Street")
 write.csv(DimLocation, file="DimLocation_Sheffield_Areas.csv")
 
 # Time Dimension
