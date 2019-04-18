@@ -32,3 +32,4 @@ https://www.sciencedirect.com/topics/computer-science/dimension-table
 4. Run crime_data_transformation.R (This will make crime dimension and time dimension)
 5. Run lsoa_lookup_data_cleansing.R 
 6. Run lsoa_lookup_data_transformation.R (This will make location dimension)
+7. Run Q1245_Fact.R (This will create fact table for Q1, Q2, Q3, Q4, and Q5
