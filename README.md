@@ -30,3 +30,5 @@ https://www.sciencedirect.com/topics/computer-science/dimension-table
 2. Run crime_outcome_data_cleansing.R
 3. Run crime_streets_data_cleansing.R
 4. Run crime_data_transformation.R (This will make crime dimension and time dimension)
+5. Run lsoa_lookup_data_cleansing.R 
+6. Run lsoa_lookup_data_transformation.R (This will make location dimension)
