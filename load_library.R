@@ -3,6 +3,7 @@ install.packages('readr')
 install.packages('tidyverse')
 install.packages('tidyr')
 install.packages('bpa')
+install.packages('rserve')
 
 library(readr)
 library(dplyr)
