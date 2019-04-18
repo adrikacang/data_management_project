@@ -9,5 +9,6 @@ colnames(crime_outcomes)[2] <- "Date"
 crime_outcomes <- separate(data = crime_outcomes, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
 crime_streets <- separate(data = crime_streets, col = Date, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year", "Month"))
 
-crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
-
+#Rename column start date and end date
+crime_fact <- select(crime_merge,c("Crime ID", "Date.x", "Date.y", "Crime type","Outcome type", "LSOA code.x", "LSOA code.y"
+                                   , "Location.x", "Location.y"))

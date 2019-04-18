@@ -11,15 +11,13 @@ crime_streets <- separate(data = crime_streets, col = Date, sep="[-]", remove=FA
 
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 
-#Crime Dimension
+#Create Crime Dimension
 DimCrime <- select(crime_merge,c("Crime type","Outcome type"))
 colnames(DimCrime)<- c("Crime Type","Outcome Type")
 DimCrime <- unique(DimCrime[c("Crime Type", "Outcome Type")])
 DimCrime$ID <- seq.int(nrow(DimCrime))
 
-#Time Dimension
+#Create Time Dimension
 DimTime <- select(crime_merge, c("Date.x"))
 DimTime <- separate(data = DimTime, col = Date.x, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year","Month"))
 colnames(DimTime) <- c("Time ID", "Year", "Month")
-#Select only Outcome from DimCrime dataframe
-#DimCrimeOutcome <- select(DimCrime, c("Outcome type"))
