@@ -1,9 +1,3 @@
-library(readr)
-library(dplyr)
-library(tidyverse)
-library(tidyr)
-library(bpa)
-
 #Deprivation
 crime_streets <- read_csv('south-yorkshire-street.csv')
 crime_outcomes <- read_csv('south-yorkshire-outcome.csv')

@@ -1,9 +1,3 @@
-library(readr)
-library(dplyr)
-library(tidyverse)
-library(tidyr)
-library(bpa)
-
 #Create Location Dimension in South Yorkshire
 names(crime_merge_lsoa)[names(crime_merge_lsoa) == "LSOA code.x"] <- "LSOA11CD"
 lsoa_lookup_merge <- merge(x=lsoa_lookup, y=crime_merge_lsoa, by='LSOA11CD')
