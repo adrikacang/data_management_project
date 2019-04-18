@@ -13,9 +13,9 @@ crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
 
 #Create Crime Dimension
 DimCrime <- select(crime_merge,c("Crime type","Outcome type"))
-colnames(DimCrime)<- c("Crime Type","Outcome Type")
 DimCrime <- unique(DimCrime[c("Crime Type", "Outcome Type")])
-DimCrime$ID <- seq.int(nrow(DimCrime))
+DimCrime$'Dim Crime ID' <- seq.int(nrow(DimCrime))
+colnames(DimCrime)<- c("Crime Type","Outcome Type", "Dim Crime ID")
 
 #Create Time Dimension
 DimTime <- select(crime_merge, c("Date.x"))

@@ -1,11 +1,13 @@
+
+
 #Deprivation
 crime_streets <- read_csv('south-yorkshire-street.csv')
 crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
 lsoa_lookup <- read_csv('lsoa-lookup-2011.csv')
 
 #Filter to retrieve south yorkshire deprivation datasets only
-crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
-crime_merge_lsoa <- crime_merge[,c("LSOA code.x","Location.x")]
+crime_merge_lsoa <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
+crime_merge_lsoa <- crime_merge_lsoa[,c("LSOA code.x","Location.x")]
 crime_merge_lsoa <- distinct(crime_merge_lsoa) #remove duplicated values
 
 

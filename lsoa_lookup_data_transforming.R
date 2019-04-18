@@ -5,6 +5,7 @@ DimLocation<- lsoa_lookup_merge[ lsoa_lookup_merge$LAD17NM == "Sheffield" |  lso
 DimLocation <- select(DimLocation, c("LSOA11CD","WD17NM", "LAD17NM", "Location.x"))
 colnames(DimLocation) <- c("LSOA Code", "Area", "City", "Street")
 DimLocation <- unique(DimLocation)
+DimLocation$'Dim Location ID' <- seq.int(nrow(DimLocation))
 
 #Remove duplicates observations
-write.csv(lsoa_lookup_merge, file="Location Dimension.csv", row.names = FALSE)
+write.csv(DimLocation, file="Location Dimension.csv", row.names = FALSE)
