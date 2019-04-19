@@ -59,6 +59,8 @@ crime_streets[ , NonNum]
 #Check if the columns contain any non-character values 
 NonChar <- unlist(lapply(crime_streets, is.character)) 
 NonChar
+#List all values in non-charactor columns 
+crime_streets[ , NonChar]
 
 #Identify and locating invalid value
 #Select & display missing Crime ID value
