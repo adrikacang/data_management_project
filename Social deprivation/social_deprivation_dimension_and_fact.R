@@ -9,5 +9,7 @@ DimDeprivationJoin <- select(DimDeprivation, c("LSOA code (2011)", "Dim Deprivat
 DimCrimeMerge <- DimCrime[DimCrime$`Outcome type` == '' | is.na(DimCrime$`Outcome type`), ]
 crime_streets_merge_dim <- merge(x = crime_streets, y = DimCrimeMerge, by.x ="Crime type", by.y = "Crime type")
 crime_dep_fact <- merge(x = crime_streets_merge_dim, y = DimDeprivationJoin, by.x="LSOA code", by.y = "LSOA code (2011)", all.x = TRUE)
+
+#Remove missing values of deprivation id
 crime_dep_fact <- crime_dep_fact[complete.cases(crime_dep_fact[ ,c("Dim Deprivation ID")]),]
 
