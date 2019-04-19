@@ -8,5 +8,21 @@ time_dimension_table <- select(DimTime, c("Time ID", "Year", "Month"))
 colnames(crime_fact_table) <- c("Crime ID", "Start TimeDim ID", "End TimeDim ID", "CrimeDim ID", "LocationDim ID")
 colnames(crime_dimension_table) <- c("CrimeDim ID", "Crime Type", "Outcome Type")
 colnames(location_dimension_table) <- c("LocationDim ID", "LSOA Code", "End TimeDim ID", "City", "Area", "Street")
-colnames(time_dimension_table) <- c("TimeDim ID", "Year", "Month")
+colnames(time_dimension_table) <- c("TimeDim ID", "Years", "Months")
 #Pick Specific Columns From Dimension Tables
+
+
+
+connection <- odbcDriverConnect("Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C:/Users/Asus/Adrian Folders/Database_v4.accdb")
+
+# check to see if we are connected to the access database
+sqlTables(connection)
+
+#Drop datable from the access database
+#sqlDrop(connection, "DimCrime")
+
+# copy the DimcCrime dataframe to access database table
+sqlSave(connection, crime_fact_table, rownames = "id", addPK = T)
+sqlSave(connection, crime_dimension_table, rownames = "id", addPK = T)
+sqlSave(connection, location_dimension_table, rownames = "id", addPK = T)
+sqlSave(connection, time_dimension_table, rownames = "id", addPK = T)
