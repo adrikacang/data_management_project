@@ -1,3 +1,15 @@
+library(readr)
+library(dplyr)
+library(tidyverse)
+library(tidyr)
+library(bpa)
+
+crime_outcomes <- read_csv('south-yorkshire-outcome.csv')
+crime_streets <- read_csv('south-yorkshire-street.csv')
+
+#merging dataset
+crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
+
 #Store indexes of missing values in an integer-valued vector MissingValues=
 which(is.na(crime_merge), arr.ind=TRUE)
 
