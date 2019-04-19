@@ -33,3 +33,7 @@ https://www.sciencedirect.com/topics/computer-science/dimension-table
 5. Run lsoa_lookup_data_cleansing.R 
 6. Run lsoa_lookup_data_transformation.R (This will make location dimension)
 7. Run Q1245_Fact.R (This will create fact table for Q1, Q2, Q3, Q4, and Q5)
+8. Run "Extract sheffield.R" (data checking and cleansing for deprivation)
+9. Run Social_deprivation_transformation.R (create dimension table for deprivation)
+10. Run social_deprivation_dimension_and_fact.R (create fact table)
+11. Run create_deprivation_table.R (create tables and insert the tables into database)
