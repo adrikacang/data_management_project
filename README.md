@@ -26,14 +26,14 @@ https://www.sciencedirect.com/topics/computer-science/dimension-table
 
 
 ## How To Run
-1. Run load_library.R
-2. Run crime_outcome_data_cleansing.R
-3. Run crime_streets_data_cleansing.R
-4. Run crime_data_transformation.R (This will make crime dimension and time dimension)
-5. Run lsoa_lookup_data_cleansing.R 
-6. Run lsoa_lookup_data_transformation.R (This will make location dimension)
-7. Run Q1245_Fact.R (This will create fact table for Q1, Q2, Q3, Q4, and Q5)
-8. Run "Extract sheffield.R" (data checking and cleansing for deprivation)
-9. Run Social_deprivation_transformation.R (create dimension table for deprivation)
-10. Run social_deprivation_dimension_and_fact.R (create fact table)
-11. Run create_deprivation_table.R (create tables and insert the tables into database)
+1. Run load_library.R (in 'Crime' folder)
+2. Run crime_outcome_data_cleansing.R (in 'Crime' folder)
+3. Run crime_streets_data_cleansing.R (in 'Crime' folder)
+4. Run crime_data_transformation.R (This will make crime dimension and time dimension, (in 'Crime' folder))
+5. Run lsoa_lookup_data_cleansing.R  (in 'Crime' folder)
+6. Run lsoa_lookup_data_transformation.R (This will make location dimension) (in 'Crime' folder)
+7. Run Q1245_Fact.R (This will create fact table for Q1, Q2, Q3, Q4, and Q5) (in 'Crime' folder)
+8. Run "Extract sheffield.R" (data checking and cleansing for deprivation) (in 'Social Deprivation' folder)
+9. Run Social_deprivation_transformation.R (create dimension table for deprivation) (in 'Social Deprivation' folder)
+10. Run social_deprivation_dimension_and_fact.R (create fact table) (in 'Social Deprivation' folder)
+11. Run create_deprivation_table.R (create tables and insert the tables into database) (in 'Social Deprivation' folder)
