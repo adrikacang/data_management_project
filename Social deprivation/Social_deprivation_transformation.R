@@ -65,5 +65,6 @@ names(Sheffield_data)[4]<-"Local_authority_district_name"
 names(Sheffield_data)[5]<-"IMD_score"
 names(Sheffield_data)[6]<-"IMD_rank"
 
+Sheffield_selected <- Sheffield_data
 # Export data
-write.csv(Sheffield_data, file="Social\ deprivation/Sheffield_selected.csv", row.names = FALSE)
+write.csv(Sheffield_selected, file="Social\ deprivation/Sheffield_selected.csv", row.names = FALSE)

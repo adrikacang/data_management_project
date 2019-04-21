@@ -1,11 +1,24 @@
-## Merge social deprivation and crime streets data of Sheffield 
-DimDeprivation <- Sheffield_data
-DimDeprivation <- unique(DimDeprivation)
-DimDeprivation$'Dim Deprivation ID' <- seq.int(nrow(DimDeprivation))
+##### Creating dimension tables
+# Named a new table
+DimDeprivation <- Sheffield_selected
 
-DimDeprivationJoin <- select(DimDeprivation, c("LSOA code (2011)", "Dim Deprivation ID"))
+# Create IDs for each record, then a dimension table is created
+DimDeprivation$'ID' <- seq.int(nrow(DimDeprivation))
 
-## Create fact table by merging crime dataset with deprivation dataset
+show(DimDeprivation)
+
+# Select only ID and LSOA_code, preparing for fact table
+part1 <- select(DimDeprivation, c("LSOA_code", "ID"))
+
+##### Creating fact tables
+# First merge part one from social deprivation dimension table and rename the ID to 'DimDeprivation_ID'
+FactDeprivation <- part1
+show(FactDeprivation)
+names(FactDeprivation)[2]<-"DimDeprivation_ID"
+
+# 
+
+# Rename
 DimCrimeMerge <- DimCrime[DimCrime$`Outcome type` == '' | is.na(DimCrime$`Outcome type`), ]
 crime_streets_merge_dim <- merge(x = crime_streets, y = DimCrimeMerge, by.x ="Crime type", by.y = "Crime type")
 crime_dep_fact <- merge(x = crime_streets_merge_dim, y = DimDeprivationJoin, by.x="LSOA code", by.y = "LSOA code (2011)", all.x = TRUE)
