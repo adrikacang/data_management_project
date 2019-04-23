@@ -14,6 +14,9 @@ Provide a year by year breakdown of the crime types based on the age and race?
 
 **understand the data fields**
 
+Police Recorded Crime and Outcomes: Open Data Tables User Guide
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/560132/pprc-user-guide-oct16.pdf
+
 Convert long and latitude to address name (Using R)
 https://stackoverflow.com/questions/29921605/r-how-to-convert-latitude-and-longitude-coordinates-into-an-address-human-rea
 
