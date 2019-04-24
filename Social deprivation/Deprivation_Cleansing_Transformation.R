@@ -2,8 +2,9 @@
 library('readr')
 library('dplyr')
 
-# Selecting the columns, 'LSOA code (2011)', 'LSOA name (2011)', 'Local Authority District code (2013)', 'Local Authority District name (2013)',
-# 'Index of Multiple Deprivation (IMD) Score' and 'Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)' 6 columns
+# Selecting the columns, 'LSOA code (2011)', 'LSOA name (2011)', 'Local Authority District code (2013)', 
+#'Local Authority District name (2013)','Index of Multiple Deprivation (IMD) Score' 
+#'and 'Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)' 6 columns
 Sheffield <- read_csv("Social\ deprivation/Sheffield_social_deprivation.csv")
 Sheffield <- as_tibble(Sheffield) # prints a little nicer
 Sheffield_data <- select(Sheffield, 1:6) # Select first 6 columns using location to select
@@ -35,7 +36,7 @@ NonChar <- unlist(lapply(Sheffield_data, is.character))
 NonChar
 Sheffield_data[ , NonChar]
 
-# Step 3, check the vlaues of numeric varibles
+# Step 3, check the values of numeric variables
 summary(Sheffield_data)
 hist(Sheffield_data$`Index of Multiple Deprivation (IMD) Score`,col="red") 
 hist(Sheffield_data$`Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)`, col="green")
@@ -44,6 +45,7 @@ hist(Sheffield_data$`Index of Multiple Deprivation (IMD) Rank (where 1 is most d
 #Select & display missing Rank values
 Sheffield_data %>% filter(is.na(Sheffield_data$`Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)`))
 outliers1 <- subset(Sheffield_data, Sheffield_data$`Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)`<0)
+outliers1
 
 # So no missing values and outliers
 
