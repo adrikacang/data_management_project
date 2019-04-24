@@ -42,17 +42,19 @@ write.csv(Time, file="Areas/DimTime_SY_Areas.csv")
 #----
 # Crime type
 # load crimes from file using library tidyverse
-crime_areas_SY <- read_csv("Areas/crime-areas-SY.csv")
+crime_areas_SY <- read_csv("Dim and fact tables/crime-areas-SY_v4.csv")
 Crime <- data.frame(CrimeID=integer(), CrimeType=character(),stringsAsFactors=FALSE)
 names(Crime) <- c('Crime ID','Crime Type')
 crimetype <- unique(crime_areas_SY$`Crime type`)
+
+crimeoutcomes <- unique(crime_areas_SY$`Last outcome category`);
 
 for( n in 1:length(crimetype)){
   Crime[n,2]<- crimetype[n]
 }
 Crime$`Crime ID` <- seq.int(nrow(Crime))
 
-write.csv(Crime, file="Areas/DimCrime_SY_Areas.csv")
+write.csv(Crime, file="Areas/DimCrime_SY_Areas_v1.csv")
 
 #DimTime <- select(crime_areas, c("X1","Year","Month"))
 #colnames(DimTime) <- c("Time ID", "Year", "Month")

@@ -9,24 +9,23 @@ auth.set_access_token(credential.access_token, credential.access_token_secret)
 api = tweepy.API(auth)
 
 # Open/create a file to append data to
-csvFile = open('Knife Crime.csv', 'w', encoding='utf-8')
+csvFile = open('Adrikacang.csv', 'w', encoding='utf-8')
 
 # Use csv writer
 csvWriter = csv.writer(csvFile, delimiter=',', lineterminator='\n')
 rows = 0
 
 csvWriter.writerow(
-    ['id', 'created_at', 'text', 'source', 'screen_name', 'location', 'retweet_count', 'reply_count',
+    ['id', 'text', 'created_at', 'source', 'location', 'retweet_count', 'reply_count',
      'favorite_count', 'quote_count', 'is_quote_status'])
 
 for tweet in tweepy.Cursor(api.search,
-                           q="Knife Crime",
+                           q="@adrikacang",
                            result_type="mixed",
                            tweet_mode="extended",
-                           trim_user=True,
-                           lang="id").items(10):
+                           trim_user=True).items():
     # Write a row to the CSV file. I use encode UTF-8
-    place = 'null'
+    place = ''
     retweet = 0
     reply = 0
     favorite = 0
@@ -48,10 +47,12 @@ for tweet in tweepy.Cursor(api.search,
         quote = tweet.quote_count
 
     csvWriter.writerow(
-        [tweet.id_str, tweet.created_at, tweet.full_text, tweet.source, tweet.user, place, retweet,
+        [tweet.id_str, tweet.full_text, tweet.created_at, tweet.source, place, retweet,
          reply,
          favorite, quote, tweet.is_quote_status])
     rows += 1
+	
+
 
 print("saving", rows, "results!")
 csvFile.close()
