@@ -13,15 +13,18 @@ colnames(crime_outcomes)[2] <- "Date"
 #Simple Frequency count
 count(crime_outcomes, 'Crime ID')
 count(crime_outcomes, 'Month')
+count(crime_outcomes, 'Reported by')
+count(crime_outcomes, 'Falls within')
 count(crime_outcomes, 'Longitude')
 count(crime_outcomes, 'Latitude')
 count(crime_outcomes, 'Location')
 count(crime_outcomes, 'LSOA code')
+count(crime_outcomes, 'LSOA name')
 count(crime_outcomes, 'Outcome type')
 
 #Check null values of variables for dimension
 sum(is.na(crime_outcomes$`Crime ID`))
-sum(is.na(crime_outcomes$Month))
+sum(is.na(crime_outcomes$Date))
 sum(is.na(crime_outcomes$Longitude))
 sum(is.na(crime_outcomes$Latitude))
 sum(is.na(crime_outcomes$Location))
@@ -71,7 +74,8 @@ bpa(crime_outcomes$Month, unique_only = TRUE)
 bpa(crime_outcomes$`LSOA code`, unique_only = TRUE)  
 
 #Split month and year column
-crime_outcomes <- separate(data = crime_outcomes, col = Month, sep="[-]", remove=FALSE, convert=TRUE, into=c("Year","Month"))
+crime_outcomes <- separate(data = crime_outcomes, col = Month, sep="[-]", 
+                           remove=FALSE, convert=TRUE, into=c("Year","Month"))
 
 #Select & display invalid specified dates
 subset(crime_outcomes, Month <= 0 & Month > 12 || Year < 2015 & Year > 2018) 
