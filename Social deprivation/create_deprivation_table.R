@@ -15,3 +15,4 @@ sqlTables(connection)
 
 # copy the DimcCrime dataframe to access database table
 sqlSave(connection, crime_dep_fact_table, rownames = "id", addPK = T)
+sqlSave(connection, DimDeprivation, rownames = "id", addPK = T)
