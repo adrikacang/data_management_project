@@ -45,7 +45,7 @@ anti_join(crime_outcomes, crime_streets, by='Crime ID')
 
 #Split Country and code column
 crime_streets <- separate(data = crime_streets, col = `LSOA name`, sep="[ ]", remove=FALSE, convert=TRUE, into=c("County", "Code"))
-crime_street_sheffield <- crime_streets[which(crime_streets$county == "Sheffield"),]
+crime_street_sheffield <- crime_streets[which(crime_streets$County == "Sheffield"),]
 
 #merging dataset
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
