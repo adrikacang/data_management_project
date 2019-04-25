@@ -38,6 +38,6 @@ https://www.sciencedirect.com/topics/computer-science/dimension-table
 7. Run Q1245_Fact.R (This will create fact table for Q1, Q2, Q3, Q4, and Q5) (in 'Crime' folder)
 8. Run "create_crime_tables.R" (will write table to access database)
 9. Run "Extract sheffield.R" (data checking and cleansing for deprivation) (in 'Social Deprivation' folder)
-10. Run Deprivation_Cleansing_Transformation.R (create dimension table for deprivation) (in 'Social Deprivation' folder)
+10. Run Deprivation_Transformation.R (create dimension table for deprivation) (in 'Social Deprivation' folder)
 11. Run social_deprivation_dimension_and_fact.R (create fact table) (in 'Social Deprivation' folder)
 12. Run create_deprivation_table.R (write fact & dim table) (in 'Social Deprivatin' folder)
