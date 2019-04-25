@@ -109,19 +109,13 @@ crime_streets <- unique(crime_streets)
 #Integrity Checks Between Datasets
 anti_join(crime_outcomes, crime_streets, by='Crime ID')
 
-<<<<<<< HEAD
+
 #Split Country and code column
 crime_streets <- separate(data = crime_streets, col = `LSOA name`, sep="[ ]", remove=FALSE, convert=TRUE, into=c("County", "Code"))
 crime_street_sheffield <- crime_streets[which(crime_streets$County == "Sheffield"),]
 
 #merging dataset
 crime_merge <- merge(x=crime_streets, y=crime_outcomes, by='Crime ID', all=TRUE)
-=======
->>>>>>> f262a57927aa764892eecee7a0695f8c5436c00b
-
-
-
-
 
 
 # Sheffield County (using the subset function) 
