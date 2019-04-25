@@ -1,5 +1,8 @@
 #Select Specific Column
-crime_fact_table <- select(crime_fact, c("Crime ID", "Date.x", "Date.y", "Dim Crime ID.x", "Dim Location ID"))
+crime_fact_table <- select(crime_fact, c("Crime ID", "Date.x", "Date.y", "Dim Crime ID", "Dim Location ID.x")) 
+#IF ERROR USE BELLOW
+# crime_fact_table <- select(crime_fact, c("Crime ID", "Date.x", "Date.y", "Dim Crime ID", "Dim Location ID")) 
+
 crime_dimension_table <- select(DimCrimeMerge, c("Dim Crime ID","Crime Type", "Outcome Type"))
 location_dimension_table <- select(DimLocationMerge, c("Dim Location ID", "LSOA Code", "City", "Area", "Street"))
 time_dimension_table <- select(DimTime, c("Time ID", "Year", "Month"))
